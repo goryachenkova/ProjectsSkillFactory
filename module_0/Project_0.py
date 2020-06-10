@@ -21,7 +21,7 @@ def score_game(game_core):
     return(score)
 
 
-def game_core_v2(number):
+def game_core(number):
     '''Сначала устанавливаем любое random число, а потом уменьшаем или увеличиваем\
     его в зависимости от того, больше оно или меньше нужного.
     Функция принимает загаданное число и возвращает число попыток
@@ -39,7 +39,7 @@ def game_core_v2(number):
     return(count) # выход из цикла, если угадали
 
 
-score_game(game_core_v2)
+score_game(game_core)
 
 
 
